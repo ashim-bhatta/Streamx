@@ -26,21 +26,29 @@ cd document
 git clone https://github.com/ashim-bhatta/torrentStream.git
 ```
 
-    - 3.3. After cloning navigate to code folder. In this case code folder is torrentStream.
-    ``` cd torrentStream ```
+-   3.3. After cloning navigate to code folder. In this case code folder is torrentStream.
+    `cd torrentStream`
 
-    - 3.4. Now navigate to Scripts
-    ``` cd Scripts ```
+-   3.4. Now navigate to Scripts
 
-    - 3.5. Now we have to activate the scripts
-    ``` activate  ```
-
-    - 3.6. Go back to main folder (torrentStream)
-    ``` cd .. ```
-
-    - 3.7. Run the program
-    ``` python main.py ```
-
+```python
+cd Scripts
 ```
 
+-   3.5. Now we have to activate the scripts
+
+```python
+activate
+```
+
+-   3.6. Go back to main folder (torrentStream)
+
+```python
+cd ..
+```
+
+-   3.7. Run the program
+
+```python
+python main.py
 ```
