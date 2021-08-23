@@ -4,7 +4,7 @@ A simple torrent streamer written in Python 3.
 
 #### Tested on Linux 64bit system with Python 3.8.2
 
-## How to use
+<!-- ## How to use
 
 TorrFlix uses Webtorrent-CLI as stream handler.
 For that we need to setup nodejs and npm.
@@ -50,4 +50,4 @@ TorrFlix suggests VLC for streaming. Make sure it is installed in your PC. Read 
 Let's start the script now!
 Run the script using the command
 
-> python3 play.py
+> python3 play.py -->
