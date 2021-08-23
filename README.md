@@ -10,6 +10,7 @@ A simple torrent streamer written in Python 3.
 
 ### 3. Type the following code in cmd.
 
+    ## Usage
     ```javascript
     import ImagePicker from 'react-native-image-crop-picker';
     ````
