@@ -10,30 +10,9 @@ A simple torrent streamer written in Python 3.
 
 ### 3. Type the following code in cmd.
 
-## Usage
-
-Import library
-
-```javascript
-import ImagePicker from "react-native-image-crop-picker";
-```
-
-### Select from gallery
-
-Call single image picker with cropping
-
-```javascript
-ImagePicker.openPicker({
-    width: 300,
-    height: 400,
-    cropping: true,
-}).then((image) => {
-    console.log(image);
-});
-```
-
     - 3.1. First you have to navigate to choice of your folder. In this case we are navigating to Document.
-    ``` cd document
+    ```
+    cd document
     ```
 
     - 3.2. Now We have to clone this code to local machine.
