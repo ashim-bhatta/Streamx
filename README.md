@@ -47,5 +47,5 @@ pip install -r requirements.txt
 -   3.9. Run the program
 
 ```python
-python main.py
+python index.py
 ```
