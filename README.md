@@ -38,25 +38,13 @@ npm install webtorrent-cli -g
 cd torrentStream
 ```
 
--   3.5. Now navigate to Scripts
+-   3.5. Install all the required packages
 
 ```python
-cd Scripts
+pip install -r requirements.txt
 ```
 
--   3.6. Now we have to activate the scripts
-
-```python
-activate
-```
-
--   3.7. Go back to main folder (torrentStream)
-
-```python
-cd ..
-```
-
--   3.8. Run the program
+-   3.9. Run the program
 
 ```python
 python main.py
