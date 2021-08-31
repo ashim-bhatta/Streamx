@@ -62,16 +62,23 @@ class Movie:
 
     
     def stream(self, magnet_link):
-        cmd = ""
-        cmd= cmd + "webtorrent"
-        cmd=cmd+" download "
-        cmd=cmd+'"{}"'.format(magnet_link)
-
-        if not self.download:
-            print('streamming...')
-            cmd=cmd+' --vlc'
+        
 
         if sys.platform.startswith('linux'):
+            cmd = []
+            cmd.append("webtorrent")
+            cmd.append(magnet_link)
+            if not download:
+                print('streamming...')
+                cmd.append('--vlc')
             subprocess.call(cmd)
+
         elif sys.platform.startswith('win32'):
+            cmd = ""
+            cmd= cmd + "webtorrent"
+            cmd=cmd+" download "
+            cmd=cmd+'"{}"'.format(magnet_link)
+            if not self.download:
+                print('streamming...')
+                cmd=cmd+' --vlc'
             subprocess.call(cmd, shell=True)
