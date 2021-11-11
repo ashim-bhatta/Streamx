@@ -68,7 +68,7 @@ class Movie:
             cmd = []
             cmd.append("webtorrent")
             cmd.append(magnet_link)
-            if not download:
+            if not self.download:
                 print('streamming...')
                 cmd.append('--vlc')
             subprocess.call(cmd)
